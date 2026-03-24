@@ -97,3 +97,4 @@ Tryb pracy:
 Mentor:
 - ChatGPT jako prowadzący proces
 - decyzja o przejściu na płatne narzędzia w momencie sensu biznesowego
+Test Day 2
