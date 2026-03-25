@@ -23,6 +23,10 @@ To osobiste laboratorium nauki (`ai-lab`) Piotra Gajdy — skupione na opanowani
 - **Wpisy w dzienniku** (`dziennik.md`): Każdy dzień ma osobną sekcję; wpisy są tworzone przez Claude Code w imieniu Piotra lub bezpośrednio przez Piotra
 - **Notatki** (`notatki/`): Pliki tematyczne, nazywane po polsku z użyciem kebab-case
 
+## Zasady bezpieczeństwa
+
+- Nigdy nie usuwaj ani nie nadpisuj istniejących plików bez mojego wyraźnego potwierdzenia
+
 ## Środowisko
 
 - macOS (MacBook Air M1), zsh
