@@ -1,1 +1,0 @@
-Ten plik istnieje tylko na branchu test
