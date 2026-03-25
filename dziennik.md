@@ -19,3 +19,25 @@
 - Claude Code anatomia — poznałem /help, /status, /compact
 - CC widzi pliki w folderze, czyta je na żądanie
 - Kontekst = pamięć robocza, /compact ją kompresuje
+
+## Dzień 4 (25.03.2026) — CLAUDE.md [x] ZROBIONY
+
+### Zadania
+- [x] Stworzyć CLAUDE.md
+- [x] Dodać sekcję Zasady bezpieczeństwa
+- [x] Przetestować działanie zasad w praktyce
+- [x] Posprzątać repo (usunąć test-plik.txt)
+
+### Notatki
+- Komenda /init skanuje lokalne repo i generuje CLAUDE.md automatycznie.
+- CC czyta CLAUDE.md przy każdym starcie — to jego brief.
+- Dodane zasady: komunikacja po polsku, potwierdzanie usunięć, git diff przed commitem.
+- CC stosuje zasady w czasie rzeczywistym — sam pytał o potwierdzenie i pokazywał diff.
+- Usunięto test-plik.txt (porządki).
+- CLAUDE.md = brief dla pracownika, każdy projekt powinien mieć swój.
+
+### Problemy
+- Brak.
+
+### Czas
+- ~30 min
