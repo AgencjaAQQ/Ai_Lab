@@ -14,3 +14,8 @@
 - Nowe komendy: git branch, git checkout, git merge, git push
 - Analogia: branch = kopia mieszkania w równoległym wszechświecie
 - Czas: ~30 min
+
+## Dzień 3 (25.03.2026)
+- Claude Code anatomia — poznałem /help, /status, /compact
+- CC widzi pliki w folderze, czyta je na żądanie
+- Kontekst = pamięć robocza, /compact ją kompresuje
