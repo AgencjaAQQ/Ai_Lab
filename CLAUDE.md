@@ -13,7 +13,6 @@ To osobiste laboratorium nauki (`ai-lab`) Piotra Gajdy — skupione na opanowani
 - `ai_os.md` — Główny dokument referencyjny: konfiguracja środowiska, przepływ pracy, etapy nauki, wykonane zadania
 - `dziennik.md` — Codzienny dziennik nauki; nowe wpisy dodawane są chronologicznie
 - `notatki/` — Notatki szybkiego dostępu na konkretne tematy (np. jak działa Claude Code)
-- `test-plik.txt` — Plik do testów i eksperymentów
 
 ## Konwencje
 
