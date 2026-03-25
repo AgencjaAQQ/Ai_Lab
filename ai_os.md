@@ -10,11 +10,13 @@ Stać się ekspertem w pracy z Claude Code (automatyzacje, AI workflow, leverage
 - Terminal: używany świadomie
 - Homebrew: zainstalowany i działa (v5.1.1)
 - Git: zainstalowany i skonfigurowany (user.name + user.email)
+- Claude Code (CLI): zainstalowany i skonfigurowany
+- Konto Claude: plan Pro (aktywny)
 
 ---
 
 ## 📍 AKTUALNY ETAP
-Etap 1: Setup środowiska + podstawy Git
+Etap 1: Setup środowiska + podstawy Git + wejście w Claude Code
 
 Zrobione:
 - [x] instalacja Homebrew
@@ -25,6 +27,9 @@ Zrobione:
 - [x] inicjalizacja Git (`git init`)
 - [x] stworzenie pliku `ai_os.md`
 - [x] pierwszy commit (Initial AI OS file)
+- [x] instalacja Claude Code (CLI)
+- [x] konfiguracja i logowanie do Claude Pro
+- [x] pierwsze uruchomienie Claude Code w terminalu
 
 W trakcie:
 - [ ] zrozumienie workflow Git (add / commit / status)
@@ -48,17 +53,73 @@ W trakcie:
 - Claude Code = agent AI do pracy z kodem i automatyzacjami
 - To NIE język programowania
 - To „worker”, który wykonuje zadania
+- Claude działa na folderze (projekcie), nie w abstrakcji
 
 ---
 
 ## 🔁 WORKFLOW (AKTUALNY)
 
-1. Tworzę projekt (folder)
-2. `git init`
-3. Tworzę pliki
-4. `git add`
-5. `git commit`
-6. Iteruję
+1. Otwieram terminal
+2. `cd [folder projektu]`
+3. `claude`
+4. (opcjonalnie) drugi terminal → `open .`
+5. Praca z agentem (analiza / tworzenie / edycja plików)
+6. `git add`
+7. `git commit`
+8. Iteracja
+
+---
+
+## 📅 DZIENNIK POSTĘPÓW
+
+### Dzień 1
+- setup środowiska (Homebrew, Git)
+- stworzenie repozytorium
+- pierwsze zrozumienie działania terminala i Git
+
+---
+
+### Dzień 2 (24.03.2026)
+
+#### ✅ Co zostało zrobione
+
+- instalacja i uruchomienie Claude Code (CLI)
+- konfiguracja połączenia z kontem Claude Pro (login przez przeglądarkę)
+- rozwiązanie problemów z autoryzacją (restart terminala + ponowna inicjalizacja)
+- pierwsze poprawne uruchomienie Claude Code w terminalu
+- zrozumienie modelu działania (Claude jako agent pracujący na folderze)
+- poznanie podstawowych komend i interakcji (prompt, analiza folderu)
+- zrozumienie różnicy: Chat vs Claude Code (rozmowa vs działanie na plikach)
+- praca równoległa: Claude (terminal) + Finder (open .)
+- ogarnięcie workflow pracy na dwóch terminalach
+
+---
+
+#### 🧠 Kluczowe zrozumienia (Dzień 2)
+
+- Claude Code ≠ chatbot → to agent działający na plikach i środowisku
+- folder = projekt (nie ma "projektów" w UI jak w czacie)
+- pliki = pamięć długoterminowa (obejście limitu kontekstu)
+- Claude działa najlepiej, gdy ma strukturę (foldery, pliki, dane)
+- można pracować w języku polskim (opis), a kod generuje się automatycznie
+- Claude Pro ≠ Claude Code API → CLI działa na subskrypcji, nie na darmowym planie
+- terminal to środowisko pracy, nie tylko narzędzie do komend
+
+---
+
+#### ⚠️ Problemy i rozwiązania
+
+- ❌ brak reakcji po wpisaniu kodu → rozwiązanie: restart terminala i ponowna inicjalizacja
+- ❌ blokada terminala przez Claude → rozwiązanie: drugi terminal (Cmd + N)
+- ❌ brak działania na wersji free → rozwiązanie: upgrade do Claude Pro
+
+---
+
+#### 🚀 Status
+
+👉 Claude Code: DZIAŁA  
+👉 Środowisko: GOTOWE  
+👉 Gotowość do realnych use-case’ów: 80%
 
 ---
 
@@ -66,15 +127,15 @@ W trakcie:
 
 1. lepsze zrozumienie Git (logika zmian)
 2. praca na plikach (edycja, commitowanie zmian)
-3. wejście w Claude Code (CLI / agent workflow)
-4. pierwsza automatyzacja (realny use case biznesowy)
+3. pierwsza automatyzacja (realny use case biznesowy)
+4. budowa struktury projektów (foldery + dane + logika)
 
 ---
 
 ## ⚠️ PROBLEMY / BLOKERY
 
 - Git jeszcze nie jest w pełni intuicyjny (normalne na tym etapie)
-- brak doświadczenia w pracy w terminalu (szybko nadrobimy)
+- brak doświadczenia w pracy w terminalu (już szybko maleje)
 
 ---
 
@@ -84,6 +145,7 @@ W trakcie:
 - przenosimy STAN, nie historię
 - każdy projekt = repo Git (jeśli ma wartość)
 - Git = „kamera + historia zmian”, nie środowisko pracy
+- pliki = pamięć systemu (ważniejsze niż rozmowa)
 
 ---
 
@@ -97,4 +159,3 @@ Tryb pracy:
 Mentor:
 - ChatGPT jako prowadzący proces
 - decyzja o przejściu na płatne narzędzia w momencie sensu biznesowego
-Test Day 2
