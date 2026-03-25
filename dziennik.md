@@ -6,3 +6,11 @@
 - 5 commitów w historii repo
 - Analogia: add = pakowanie kartonu, commit = wywiezienie kartonu
 - Czas: ~15 min
+
+## Dzień 2 (25.03.2026)
+- Git branche: branch, checkout, merge — opanowane
+- Branch test stworzony, plik dodany, zmergowany do main, branch usunięty
+- GitHub: konto sparowane, repo wypchnięte, pliki widoczne online
+- Nowe komendy: git branch, git checkout, git merge, git push
+- Analogia: branch = kopia mieszkania w równoległym wszechświecie
+- Czas: ~30 min
