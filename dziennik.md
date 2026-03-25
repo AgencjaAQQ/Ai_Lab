@@ -1,43 +1,252 @@
-# Dziennik nauki Claude Code - Piotr Gajda
+# CLAUDE CODE MASTER PLAN — DZIENNIK POSTĘPÓW
+## Piotr Gajda | Start: 25.03.2026
 
-## Dzień 1 (25.03.2026)
-- [x] Git workflow: status → add → commit → log
-- [x] Zrobione 2 commity (aktualizacja ai_os.md, nowy dziennik.md)
-- [x] 5 commitów w historii repo
-- [x] Analogia: add = pakowanie kartonu, commit = wywiezienie kartonu
-- [x] Czas: ~15 min
+---
 
-## Dzień 2 (25.03.2026)
-- [x] Git branche: branch, checkout, merge — opanowane
-- [x] Branch test stworzony, plik dodany, zmergowany do main, branch usunięty
-- [x] GitHub: konto sparowane, repo wypchnięte, pliki widoczne online
-- [x] Nowe komendy: git branch, git checkout, git merge, git push
-- [x] Analogia: branch = kopia mieszkania w równoległym wszechświecie
-- [x] Czas: ~30 min
+## JAK UŻYWAĆ TEGO PLIKU
 
-## Dzień 3 (25.03.2026)
-- [x] Claude Code anatomia — poznałem /help, /status, /compact
-- [x] CC widzi pliki w folderze, czyta je na żądanie
-- [x] Kontekst = pamięć robocza, /compact ją kompresuje
+### Przed każdą sesją:
+1. Otwórz nową konwersację w tym samym projekcie Claude
+2. Wklej na start wiadomość według szablonu poniżej (sekcja SZABLON STARTU DNIA)
+3. Czekaj na instrukcje od mentora
 
-## Dzień 4 (25.03.2026) — CLAUDE.md [x] ZROBIONY
+### Po każdej sesji:
+1. Zaktualizuj status dnia poniżej (zmień [ ] na [x], dopisz notatki)
+2. Zapisz plik
 
-### Zadania
-- [x] Stworzyć CLAUDE.md
-- [x] Dodać sekcję Zasady bezpieczeństwa
-- [x] Przetestować działanie zasad w praktyce
-- [x] Posprzątać repo (usunąć test-plik.txt)
+---
 
-### Notatki
-- Komenda /init skanuje lokalne repo i generuje CLAUDE.md automatycznie.
-- CC czyta CLAUDE.md przy każdym starcie — to jego brief.
-- Dodane zasady: komunikacja po polsku, potwierdzanie usunięć, git diff przed commitem.
-- CC stosuje zasady w czasie rzeczywistym — sam pytał o potwierdzenie i pokazywał diff.
-- Usunięto test-plik.txt (porządki).
-- CLAUDE.md = brief dla pracownika, każdy projekt powinien mieć swój.
+## SZABLON STARTU DNIA
 
-### Problemy
-- Brak.
+Skopiuj i wklej to na początek każdej nowej konwersacji:
 
-### Czas
-- ~30 min
+```
+Jesteś moim mentorem Claude Code. Prowadzisz mnie przez 30-dniowy kurs.
+Moje materiały i plan kursu masz w plikach projektu.
+
+DZIEŃ: [wpisz numer]
+DATA: [wpisz datę]
+
+CO ZROBIŁEM WCZORAJ:
+[krótko opisz co zrobiłeś — 2-3 zdania]
+
+PROBLEMY / PYTANIA:
+[jeśli coś nie działa lub masz pytania — wpisz tutaj]
+
+STATUS ŚRODOWISKA:
+- Terminal: działa / nie działa
+- Claude Code CLI: działa / nie działa
+- Git repo (ai-lab): istnieje / nie istnieje
+- Ostatni commit: [wpisz wiadomość ostatniego commita lub "brak"]
+
+GOTOWY. Prowadź mnie przez Dzień [numer].
+```
+
+---
+
+## POSTĘPY — FAZA 1: FUNDAMENTY
+
+### Dzień 1 (25.03.2026) — Git podstawy
+- Status: [x] ZROBIONY
+- Zadania:
+  - [x] git status — rozumiem co pokazuje
+  - [x] git add — rozumiem staging area
+  - [x] git commit — zrobiłem min. 3 commity
+  - [x] git log — umiem przejrzeć historię
+- Notatki: Analogia przeprowadzkowa: add = pakowanie kartonu, commit = wywiezienie kartonu. Zrobione 6 commitów (w tym aktualizacja ai_os.md, nowy dziennik.md). 5 commitów w historii repo na koniec dnia. Stworzony plik dziennik.md.
+- Problemy: brak
+- Czas: ~20 min
+
+### Dzień 2 (25.03.2026) — Git branche + GitHub
+- Status: [x] ZROBIONY
+- Zadania:
+  - [x] Git branche: branch, checkout, merge — opanowane
+  - [x] Branch test stworzony, plik dodany, zmergowany do main, branch usunięty
+  - [x] GitHub: konto sparowane, repo wypchnięte, pliki widoczne online
+  - [x] Nowe komendy: git branch, git checkout, git merge, git push
+  - [x] Analogia: branch = kopia mieszkania w równoległym wszechświecie
+- Notatki: coraz lepiej to kumam
+- Problemy: brak drugiego monitora, który usprawniłby pracę ;)
+- Czas: ~30 min
+
+### Dzień 3 (25.03.2026) — Claude Code anatomia
+- Status: [x] ZROBIONY
+- Zadania:
+  - [x] /help — znam dostępne komendy
+  - [x] /status — rozumiem co CC widzi
+  - [x] /clear, /compact — umiem zarządzać kontekstem
+  - [x] Notatka: jak CC działa (zapisana w pliku notatki/jak-dziala-cc.md)
+- Notatki: CC widzi tylko folder w którym go odpaliłeś. CC widzi pliki w folderze, czyta je na żądanie. Kontekst = pamięć robocza, /compact kompresuje. Ty mówisz CO, CC decyduje JAK. Pierwszy plik stworzony i edytowany przez CC. Commit + push po polsku jednym zdaniem.
+- Problemy: brak
+- Czas: ~30 min
+
+### Dzień 4 (25.03.2026) — CLAUDE.md
+- Status: [x] ZROBIONY
+- Zadania:
+  - [x] CLAUDE.md stworzony w ai-lab (przez /init)
+  - [x] CC rozpoznaje i stosuje instrukcje z CLAUDE.md
+  - [x] Rozumiem: po co CLAUDE.md, co w nim pisać
+- Notatki: Komenda /init skanuje lokalne repo i generuje CLAUDE.md automatycznie. CC czyta CLAUDE.md przy każdym starcie — to jego brief. Dodane zasady: komunikacja po polsku, potwierdzanie usunięć, git diff przed commitem. CC stosuje zasady w czasie rzeczywistym — sam pytał o potwierdzenie i pokazywał diff. Usunięto test-plik.txt (porządki). CLAUDE.md = brief dla pracownika, każdy projekt powinien mieć swój.
+- Problemy: brak
+- Czas: ~30 min
+
+### Dzień 5 — CC + pliki
+- Status: [ ] ZROBIONY
+- Zadania:
+  - [ ] CC stworzył strukturę folderów
+  - [ ] CC wygenerował README.md
+  - [ ] CC edytował istniejący plik
+  - [ ] Wszystko commitnięte
+- Notatki:
+- Problemy:
+
+### Dzień 6 — CC + skrypty
+- Status: [ ] ZROBIONY
+- Zadania:
+  - [ ] CC napisał skrypt (Python lub JS)
+  - [ ] Skrypt działa i daje wynik
+  - [ ] Rozumiem co skrypt robi (linia po linii nie muszę, ale logikę tak)
+- Notatki:
+- Problemy:
+
+### Dzień 7 — CC + HTML
+- Status: [ ] ZROBIONY
+- Zadania:
+  - [ ] CC stworzył stronę HTML
+  - [ ] Strona wyświetla się w przeglądarce
+  - [ ] CC edytował stronę na moje polecenie
+  - [ ] Node.js zainstalowany
+- Notatki:
+- Problemy:
+
+### Dzień 8 — Powtórka + mini-projekt
+- Status: [ ] ZROBIONY
+- Zadania:
+  - [ ] Nowe repo stworzone od zera
+  - [ ] CLAUDE.md skonfigurowany
+  - [ ] CC wygenerował landing page
+  - [ ] Wszystko commitnięte i czyste
+- Notatki:
+- Problemy:
+
+---
+
+## POSTĘPY — FAZA 2: REALNE PROJEKTY
+
+### Dzień 9 — Landing page #1
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
+
+### Dzień 10 — Landing page #2
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
+
+### Dzień 11 — Tailwind CSS
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
+
+### Dzień 12 — React start
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
+
+### Dzień 13 — React aplikacja
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
+
+### Dzień 14 — Porównywarka v1
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
+
+### Dzień 15 — Porównywarka v2
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
+
+### Dzień 16 — API + dane
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
+
+### Dzień 17 — Deploy #1
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
+
+### Dzień 18 — Deploy #2 + domena
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
+
+---
+
+## POSTĘPY — FAZA 3: ZAAWANSOWANE WORKFLOW
+
+### Dzień 19 — MCP co to jest
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
+
+### Dzień 20 — MCP praktyka
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
+
+### Dzień 21 — Automatyzacja #1
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
+
+### Dzień 22 — Automatyzacja #2
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
+
+### Dzień 23 — E-commerce tools
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
+
+### Dzień 24 — Full-stack projekt
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
+
+### Dzień 25 — Testowanie + debug
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
+
+---
+
+## POSTĘPY — FAZA 4: MONETYZACJA
+
+### Dzień 26 — Portfolio setup
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
+
+### Dzień 27 — Portfolio deploy
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
+
+### Dzień 28 — Oferta usługowa
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
+
+### Dzień 29 — Pitch + outreach
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
+
+### Dzień 30 — Podsumowanie
+- Status: [ ] ZROBIONY
+- Notatki:
+- Problemy:
