@@ -26,6 +26,7 @@ To osobiste laboratorium nauki (`ai-lab`) Piotra Gajdy — skupione na opanowani
 ## Zasady bezpieczeństwa
 
 - Nigdy nie usuwaj ani nie nadpisuj istniejących plików bez mojego wyraźnego potwierdzenia
+- Przed każdym commitem pokaż mi git diff, żebym widział co się zmienia
 
 ## Środowisko
 
