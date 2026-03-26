@@ -1,0 +1,16 @@
+nazwa,kategoria,cena,stan_magazynowy,sprzedaz_miesiac
+Beton B25,beton,320,150,45
+Beton B30,beton,360,80,62
+Beton B37,beton,410,30,28
+Zaprawa murarska,zaprawy,45,500,120
+Zaprawa tynkarska,zaprawy,52,300,85
+Klej do płytek,kleje,38,200,95
+Klej montażowy,kleje,28,600,40
+Farba fasadowa,farby,89,120,55
+Farba lateksowa,farby,65,250,110
+Grunt głęboko penetrujący,grunty,42,180,70
+Silikon sanitarny,silikony,22,400,150
+Silikon dekarski,silikony,35,150,60
+Fuga elastyczna,fugi,18,350,200
+Gładź szpachlowa,wykanczanie,32,280,90
+Tynk gipsowy,wykanczanie,48,100,75

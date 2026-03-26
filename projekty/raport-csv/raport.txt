@@ -1,0 +1,29 @@
+==================================================
+        RAPORT SPRZEDAŻY PRODUKTÓW
+==================================================
+
+Liczba produktów: 15
+Średnia cena: 106.93 zł
+
+Top 3 najlepiej sprzedające się produkty:
+  1. Fuga elastyczna — 200 szt. (fugi)
+  2. Silikon sanitarny — 150 szt. (silikony)
+  3. Zaprawa murarska — 120 szt. (zaprawy)
+
+Kategoria z najwyższą sprzedażą: silikony (210 szt.)
+
+Sprzedaż wg kategorii:
+  silikony: 210 szt.
+  zaprawy: 205 szt.
+  fugi: 200 szt.
+  farby: 165 szt.
+  wykanczanie: 165 szt.
+  beton: 135 szt.
+  kleje: 135 szt.
+  grunty: 70 szt.
+
+PRODUKTY Z NISKIM STANEM (poniżej 100 szt.):
+  Beton B37 — 30 szt. (kategoria: beton)
+  Beton B30 — 80 szt. (kategoria: beton)
+
+==================================================
