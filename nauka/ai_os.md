@@ -159,3 +159,23 @@ Tryb pracy:
 Mentor:
 - ChatGPT jako prowadzący proces
 - decyzja o przejściu na płatne narzędzia w momencie sensu biznesowego
+
+---
+
+## Struktura repo
+
+Repozytorium `ai-lab` podzielone jest na trzy główne foldery:
+
+```
+ai-lab/
+├── nauka/              # Materiały szkoleniowe i dokumentacja nauki
+│   ├── ai_os.md        # Ten plik — główny dokument referencyjny
+│   ├── dziennik.md     # Codzienny dziennik nauki (chronologiczny)
+│   └── notatki/        # Pliki tematyczne (np. jak działa Claude Code)
+├── projekty/           # Projekty klienckie
+│   └── betondur/       # Skrypty Python + dane xlsx — klient Betondur
+└── narzedzia/          # Narzędzia pomocnicze i konfiguracje
+    └── PocztyAgencjaAQQ.mobileconfig  # Profil konfiguracyjny poczty (iOS/macOS)
+```
+
+Pliki w korzeniu repo: `CLAUDE.md` (instrukcje dla Claude Code), `README.md` (opis repo na GitHub).
