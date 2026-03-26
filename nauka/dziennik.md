@@ -90,15 +90,18 @@ GOTOWY. Prowadź mnie przez Dzień [numer].
 - Problemy: brak
 - Czas: ~30 min
 
-### Dzień 5 — CC + pliki
-- Status: [ ] ZROBIONY
+### Dzień 5 (26.03.2026) — CC + pliki
+- Status: [x] ZROBIONY
 - Zadania:
-  - [ ] CC stworzył strukturę folderów
-  - [ ] CC wygenerował README.md
-  - [ ] CC edytował istniejący plik
-  - [ ] Wszystko commitnięte
-- Notatki:
-- Problemy:
+  - [x] CC stworzył strukturę folderów (nauka/, projekty/betondur/, narzedzia/)
+  - [x] CC przeniósł pliki używając git mv (zachowana historia)
+  - [x] CC wygenerował README.md (opis repo na GitHub)
+  - [x] CC edytował ai_os.md — dodał sekcję "Struktura repo"
+  - [x] CC stworzył ściągawkę terminala (nauka/notatki/sciagawka-terminal.md)
+  - [x] Wszystko commitnięte i spushowane
+- Notatki: CC zaproponował strukturę repo jako drzewko → zaakceptowałem → wykonał bez pytania o każdy krok. Wzorzec pracy: propozycja → akceptacja → wykonanie. Pliki śledzone przez Git przenoszone przez git mv (zachowana historia), pliki nieśledzone przez mv + git add. Nowy projekt = folder + git init + claude + CLAUDE.md.
+- Problemy: brak
+- Czas: ~40 min
 
 ### Dzień 6 — CC + skrypty
 - Status: [ ] ZROBIONY
