@@ -103,14 +103,18 @@ GOTOWY. Prowadź mnie przez Dzień [numer].
 - Problemy: brak
 - Czas: ~40 min
 
-### Dzień 6 — CC + skrypty
-- Status: [ ] ZROBIONY
+### Dzień 6 (26.03.2026) — CC + skrypty
+- Status: [x] ZROBIONY
 - Zadania:
-  - [ ] CC napisał skrypt (Python lub JS)
-  - [ ] Skrypt działa i daje wynik
-  - [ ] Rozumiem co skrypt robi (linia po linii nie muszę, ale logikę tak)
-- Notatki:
-- Problemy:
+  - [x] CC napisał skrypt Python analizujący plik CSV (produkty.csv — 15 produktów)
+  - [x] Skrypt generuje raport: liczba produktów, średnia cena, top 3 sprzedaży, ranking kategorii
+  - [x] Dodana sekcja alertu niskiego stanu magazynowego (poniżej 100 szt.)
+  - [x] Raport zapisywany do pliku raport.txt
+  - [x] Rozumiem logikę skryptu: wczytanie CSV → obliczenia → zapis raportu
+  - [x] Wszystko commitnięte i spushowane
+- Notatki: CC napisał skrypt w czystym Pythonie (bez zewnętrznych bibliotek). Wzorzec: jedna funkcja = jedno zadanie (wczytaj_csv / generuj_raport / main). Skrypt modyfikowany na bieżąco — dodano sekcję alertów bez przepisywania całości. Nowe pojęcia: csv.DictReader, defaultdict, lambda, sorted z key=. CC tłumaczy kod logicznie (blokami), nie linię po linii — to wystarczy.
+- Problemy: brak
+- Czas: ~30 min
 
 ### Dzień 7 — CC + HTML
 - Status: [ ] ZROBIONY
