@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>EmailAccountDescription</key>
+            <string>Agencja AQQ</string>
+            <key>EmailAccountName</key>
+            <string>Piotr Gajda</string>
+            <key>EmailAccountType</key>
+            <string>EmailTypeIMAP</string>
+            <key>EmailAddress</key>
+            <string>piotr@agencjaaqq.pl</string>
+            <key>IncomingMailServerHostName</key>
+            <string>mail.agencjaaqq.pl</string>
+            <key>IncomingMailServerPortNumber</key>
+            <integer>993</integer>
+            <key>IncomingMailServerUseSSL</key>
+            <true/>
+            <key>IncomingMailServerUsername</key>
+            <string>piotr@agencjaaqq.pl</string>
+            <key>IncomingPassword</key>
+            <string>#Gajdzik20@23!@#</string>
+            <key>OutgoingMailServerHostName</key>
+            <string>mail.agencjaaqq.pl</string>
+            <key>OutgoingMailServerPortNumber</key>
+            <integer>465</integer>
+            <key>OutgoingMailServerUseSSL</key>
+            <true/>
+            <key>OutgoingMailServerUsername</key>
+            <string>piotr@agencjaaqq.pl</string>
+            <key>OutgoingPassword</key>
+            <string>#Gajdzik20@23!@#</string>
+            <key>SMIMEEnabled</key>
+            <false/>
+            <key>PayloadDescription</key>
+            <string>Konfiguracja konta IMAP Agencja AQQ</string>
+            <key>PayloadDisplayName</key>
+            <string>Agencja AQQ - poczta</string>
+            <key>PayloadIdentifier</key>
+            <string>pl.agencjaaqq.mail.imap</string>
+            <key>PayloadType</key>
+            <string>com.apple.mail.managed</string>
+            <key>PayloadUUID</key>
+            <string>A1B2C3D4-E5F6-7890-ABCD-EF1234567890</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>Konfiguracja poczty e-mail dla Piotra Gajdy - Agencja AQQ</string>
+    <key>PayloadDisplayName</key>
+    <string>Agencja AQQ - Poczta</string>
+    <key>PayloadIdentifier</key>
+    <string>pl.agencjaaqq.mailconfig</string>
+    <key>PayloadOrganization</key>
+    <string>Agencja AQQ</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>B2C3D4E5-F6A7-8901-BCDE-F12345678901</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
