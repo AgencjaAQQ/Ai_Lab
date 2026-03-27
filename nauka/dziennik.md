@@ -116,15 +116,17 @@ GOTOWY. Prowadź mnie przez Dzień [numer].
 - Problemy: brak
 - Czas: ~30 min
 
-### Dzień 7 — CC + HTML
-- Status: [ ] ZROBIONY
+### Dzień 7 (27.03.2026) — CC + HTML
+- Status: [x] ZROBIONY
 - Zadania:
-  - [ ] CC stworzył stronę HTML
-  - [ ] Strona wyświetla się w przeglądarce
-  - [ ] CC edytował stronę na moje polecenie
-  - [ ] Node.js zainstalowany
-- Notatki:
-- Problemy:
+  - [x] Node.js v25.8.1 — zainstalowany i zweryfikowany
+  - [x] CC stworzył stronę HTML dla agencji AQQ
+  - [x] Strona wyświetla się w przeglądarce (file://)
+  - [x] CC edytował stronę na polecenie (granatowy nagłówek, pomarańczowy przycisk)
+  - [x] Wszystko commitnięte i spushowane (commit a07fa85)
+- Notatki: Wzorzec identyczny jak przy CSV — polecenie po polsku → CC pisze kod → odświeżasz przeglądarkę → widzisz efekt. HTML + CSS generowany przez CC w jednym pliku index.html. CLAUDE.md zadziałał — CC sam pokazał diff i zapytał o potwierdzenie przed commitem. Iteracja działa natychmiast: mówisz co zmienić → CC zmienia → Cmd+R → gotowe.
+- Problemy: brak
+- Czas: ~30 min
 
 ### Dzień 8 — Powtórka + mini-projekt
 - Status: [ ] ZROBIONY
