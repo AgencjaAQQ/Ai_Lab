@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AQQ – Agencja Kreatywna</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e8;
+      line-height: 1.6;
+    }
+
+    /* HEADER */
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 2rem;
+      background: #1a1a2e;
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(120, 80, 255, 0.15) 0%, transparent 70%);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+    }
+
+    .logo {
+      font-size: 5rem;
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+      position: relative;
+    }
+
+    .tagline {
+      font-size: 1.25rem;
+      color: #ffffff;
+      margin-top: 1rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      font-weight: 300;
+    }
+
+    .btn-contact {
+      margin-top: 2rem;
+      padding: 0.85rem 2.2rem;
+      background: #f97316;
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.2s ease, transform 0.2s ease;
+      display: inline-block;
+    }
+
+    .btn-contact:hover {
+      background: #ea6c0a;
+      transform: translateY(-2px);
+    }
+
+    .scroll-hint {
+      position: absolute;
+      bottom: 2rem;
+      font-size: 0.8rem;
+      color: #4b5563;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    /* SECTIONS */
+    section {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 6rem 2rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+      color: #f3f4f6;
+    }
+
+    h2 span {
+      color: #7c3aed;
+    }
+
+    /* O NAS */
+    .about {
+      border-left: 3px solid #7c3aed;
+      padding-left: 2rem;
+    }
+
+    .about p {
+      font-size: 1.1rem;
+      color: #9ca3af;
+      max-width: 680px;
+    }
+
+    /* USŁUGI */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2.5rem;
+    }
+
+    .card {
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 2rem;
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: #7c3aed;
+    }
+
+    .card-icon {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .card h3 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #f3f4f6;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #6b7280;
+      line-height: 1.7;
+    }
+
+    /* DIVIDER */
+    .divider {
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, #2a2a2a, transparent);
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 2.5rem;
+      color: #4b5563;
+      font-size: 0.9rem;
+    }
+
+    footer strong {
+      color: #7c3aed;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">AQQ</div>
+    <p class="tagline">Tworzymy marki, które zostają w pamięci</p>
+    <a href="mailto:kontakt@aqq.pl" class="btn-contact">Skontaktuj się</a>
+    <span class="scroll-hint">↓ scroll</span>
+  </header>
+
+  <div class="divider"></div>
+
+  <section>
+    <div class="about">
+      <h2>O <span>nas</span></h2>
+      <p>
+        AQQ to agencja kreatywna specjalizująca się w budowaniu silnych marek i obecności cyfrowej.
+        Łączymy strategiczne myślenie z bezkompromisowym designem, żeby Twój biznes wyróżniał się
+        w tłumie. Pracujemy z ambitnymi markami, które chcą rosnąć szybciej niż konkurencja.
+      </p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section>
+    <h2>Nasze <span>usługi</span></h2>
+    <div class="services-grid">
+
+      <div class="card">
+        <div class="card-icon">✦</div>
+        <h3>Branding</h3>
+        <p>Logo, identyfikacja wizualna i strategia marki — od zera do spójnego systemu, który buduje zaufanie i rozpoznawalność.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">◈</div>
+        <h3>Strony WWW</h3>
+        <p>Szybkie, nowoczesne strony i sklepy internetowe. Projektujemy z myślą o konwersji, nie tylko o estetyce.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">◎</div>
+        <h3>Social Media</h3>
+        <p>Strategia, content i kampanie reklamowe na Instagramie, Facebooku i TikToku. Budujemy społeczności, które kupują.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <footer>
+    <p>© 2026 <strong>AQQ</strong> — Agencja Kreatywna. Wszelkie prawa zastrzeżone.</p>
+  </footer>
+
+</body>
+</html>
