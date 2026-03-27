@@ -19,6 +19,8 @@
             <integer>993</integer>
             <key>IncomingMailServerUseSSL</key>
             <true/>
+            <key>IncomingMailServerAuthentication</key>
+            <string>EmailAuthPassword</string>
             <key>IncomingMailServerUsername</key>
             <string>piotr@agencjaaqq.pl</string>
             <key>IncomingPassword</key>
@@ -29,6 +31,8 @@
             <integer>465</integer>
             <key>OutgoingMailServerUseSSL</key>
             <true/>
+            <key>OutgoingMailServerAuthentication</key>
+            <string>EmailAuthPassword</string>
             <key>OutgoingMailServerUsername</key>
             <string>piotr@agencjaaqq.pl</string>
             <key>OutgoingPassword</key>
