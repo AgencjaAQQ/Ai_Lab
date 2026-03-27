@@ -116,21 +116,7 @@ GOTOWY. Prowadź mnie przez Dzień [numer].
 - Problemy: brak
 - Czas: ~30 min
 
-### Dzień 7 (27.03.2026) — Narzędzia AI + Notion
-- Status: [x] ZROBIONY
-- Zadania:
-  - [x] Odinstalowano Wispr Flow (nie działało logowanie)
-  - [x] Zainstalowano i skonfigurowano Superwhisper 2.11.0 (dyktowanie po polsku)
-  - [x] Zainstalowano Granola 7.87.7 (nagrywanie spotkań z AI notatkami)
-  - [x] Notion wyczyszczony do zera i postawiony od nowa przez API
-  - [x] Zbudowana baza tasków w Notion (Status / Priorytet / Obszar / Termin / Źródło)
-  - [x] Token integracji Claude↔Notion skonfigurowany
-  - [x] Tailscale + Termius — dostęp do Maca z iPhone potwierdzony
-- Notatki: Duża sesja narzędziowa. Kluczowe odkrycie: Superwhisper free plan = transkrypcja PL na zawsze, Pro = AI-czyszczenie tekstu (tłumaczy na EN — wyłączyć!). Notion API nie pozwala tworzyć stron na poziomie workspace przez internal integration — wymaga ręcznego udostępnienia strony. Granola wykrywa spotkania automatycznie, 25 spotkań/mies. za darmo.
-- Problemy: Superwhisper tłumaczy PL→EN gdy Pro trial aktywny — fix: wyłączyć Language Model w ustawieniach trybu
-- Czas: ~3h
-
-### Dzień 8 — CC + HTML
+### Dzień 7 — CC + HTML
 - Status: [ ] ZROBIONY
 - Zadania:
   - [ ] CC stworzył stronę HTML
