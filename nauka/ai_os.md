@@ -162,6 +162,44 @@ Mentor:
 
 ---
 
+## 🛠️ SKONFIGUROWANE NARZĘDZIA
+
+### Tailscale — zdalny dostęp do Maka
+- Prywatna sieć VPN między urządzeniami
+- Mac: `100.102.70.45` (macbook-air-agencja)
+- iPhone: `100.74.229.51` (iphone-15)
+- Konto: piotr@agencjaaqq.pl
+- **Jak używać:** działa automatycznie w tle. iPhone i Mac widzą się zawsze, niezależnie od sieci.
+
+### SSH — terminal zdalny
+- SSH włączone na Maku (Ustawienia → Ogólne → Udostępnianie → Zdalny login)
+- Połączenie z iPhone: Termius → host `100.102.70.45`, user `agencjaaqq`
+- **Jak używać:** otwórz Termius na iPhonie, kliknij host MacBook AQQ → masz pełny terminal na Maku
+
+### tmux — trwałe sesje terminala
+- Sesja `main` uruchamia się automatycznie przy każdym logowaniu SSH
+- Rozłączenie nie zabija sesji — wracasz dokładnie tam gdzie skończyłeś
+- **Podstawowe komendy:**
+  - `tmux attach -t main` — dołącz do istniejącej sesji
+  - `Ctrl+A, C` — nowe okno w tmux
+  - `Ctrl+A, N` — następne okno
+  - `Ctrl+A, D` — odłącz (sesja działa dalej)
+
+### Termius — SSH z iPhone'a
+- Zainstalowany, zalogowany (piotr@agencjaaqq.pl), host skonfigurowany
+- Plan darmowy — wystarczy do SSH
+- **Workflow iPhone → Mac:**
+  1. Otwórz Termius
+  2. Kliknij `MacBook AQQ - Tailscale`
+  3. `cd ~/ai-lab` (lub inny projekt)
+  4. `claude` — uruchamiasz Claude Code na Maku z iPhone'a
+
+### Screenshoty
+- Zapisują się na Pulpicie I kopiują do schowka jednocześnie
+- Skonfigurowane przez `defaults write`
+
+---
+
 ## Struktura repo
 
 Repozytorium `ai-lab` podzielone jest na trzy główne foldery:
