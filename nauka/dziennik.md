@@ -128,15 +128,19 @@ GOTOWY. Prowadź mnie przez Dzień [numer].
 - Problemy: brak
 - Czas: ~30 min
 
-### Dzień 8 — Powtórka + mini-projekt
-- Status: [ ] ZROBIONY
+### Dzień 8 (27.03.2026) — Powtórka + mini-projekt
+- Status: [x] ZROBIONY
 - Zadania:
-  - [ ] Nowe repo stworzone od zera
-  - [ ] CLAUDE.md skonfigurowany
-  - [ ] CC wygenerował landing page
-  - [ ] Wszystko commitnięte i czyste
-- Notatki:
-- Problemy:
+  - [x] Nowe repo fundacja-akeda stworzone od zera (git init)
+  - [x] CLAUDE.md skonfigurowany z zasadami projektu
+  - [x] CC wygenerował landing page Fundacji Akeda (HTML+CSS, granat+złoto)
+  - [x] GitHub CLI (gh) zainstalowane — repo tworzone z terminala
+  - [x] Repo fundacja-akeda na GitHubie, push działa
+  - [x] Iteracja: zmiana tła na czarne → commit → push — samodzielnie
+  - [x] FAZA 1 UKOŃCZONA
+- Notatki: Błąd git init w złym folderze — lekcja: zawsze sprawdzaj prompt przed komendą. GitHub CLI = game changer, zero klikania po przeglądarce. Dwa repo na GitHubie (ai-lab + fundacja-akeda). Pełny cykl projektu: init → CLAUDE.md → CC generuje → commit → push → iteracja.
+- Problemy: brak
+- Czas: ~45 min
 
 ---
 
