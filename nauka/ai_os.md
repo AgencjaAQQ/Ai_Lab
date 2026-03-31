@@ -185,6 +185,14 @@ Mentor:
   - `Ctrl+A, N` — następne okno
   - `Ctrl+A, D` — odłącz (sesja działa dalej)
 
+### Poczta — konfiguracja IMAP (Mail.app + webmail)
+- Konto AQQ: IMAP s135.cyber-folks.pl:993 SSL, SMTP s135.cyber-folks.pl:465 SSL
+- Konto Gmail: pit.gajda@gmail.com — IMAP przez Google
+- Folder Wysłane AQQ → "Sent" na serwerze (7044 maili)
+- Pełna synchronizacja dwustronna: wysłane z Mail.app = widoczne w webmailu i na iPhonie
+- Webmail Cyberfolks: https://cyberfolks.pl/logowanie-poczta/
+- **Ważne:** jeśli Gmail Wysłane pokazuje 0 — wyłącz filtr "Nieczytane" w prawym górnym rogu
+
 ### Termius — SSH z iPhone'a
 - Zainstalowany, zalogowany (piotr@agencjaaqq.pl), host skonfigurowany
 - Plan darmowy — wystarczy do SSH
