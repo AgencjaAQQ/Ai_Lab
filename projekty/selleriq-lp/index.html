@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SellerIQ — Analityka Amazon która zarabia za Ciebie</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAWIGACJA -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">Seller<span>IQ</span></a>
+      <a href="#cennik" class="nav__cta">Zacznij za darmo</a>
+    </div>
+  </nav>
+
+  <!-- ================================================
+       SEKCJA 1 — HERO
+  ================================================ -->
+  <section class="hero">
+    <div class="container hero__grid">
+
+      <!-- Lewa kolumna: tekst -->
+      <div class="hero__text">
+        <div class="hero__badge">Analityka Amazon · Real-time</div>
+        <h1 class="hero__h1">
+          Wiesz ile sprzedajesz.<br>
+          Ale czy wiesz<br>
+          <span class="accent">ile zarabiasz?</span>
+        </h1>
+        <p class="hero__sub">
+          SellerIQ zamienia surowe dane Amazon w decyzje biznesowe.
+          Realna marża, predykcje sprzedaży, wszystkie rynki —
+          <strong>jeden dashboard.</strong>
+        </p>
+        <a href="#" class="btn btn--primary">
+          Zacznij za darmo — 14 dni bez karty kredytowej
+        </a>
+        <p class="hero__note">Bez zobowiązań. Anuluj kiedy chcesz.</p>
+      </div>
+
+      <!-- Prawa kolumna: mockup dashboardu -->
+      <div class="hero__dashboard">
+        <div class="dashboard">
+
+          <!-- Pasek tytułowy mockupa -->
+          <div class="dashboard__topbar">
+            <div class="dashboard__dots">
+              <span></span><span></span><span></span>
+            </div>
+            <span class="dashboard__title">SellerIQ Dashboard</span>
+            <span class="dashboard__date">27 mar 2026</span>
+          </div>
+
+          <!-- 4 karty metryk -->
+          <div class="dashboard__cards">
+
+            <div class="metric-card">
+              <div class="metric-card__label">Przychód dziś</div>
+              <div class="metric-card__value">4 832 zł</div>
+              <div class="metric-card__delta positive">↑ 12%</div>
+            </div>
+
+            <div class="metric-card">
+              <div class="metric-card__label">Marża netto</div>
+              <div class="metric-card__value">23.4%</div>
+              <div class="metric-card__delta positive">↑ 2.1 pp</div>
+            </div>
+
+            <div class="metric-card">
+              <div class="metric-card__label">Bestseller</div>
+              <div class="metric-card__value metric-card__value--sm">Produkt #1</div>
+              <div class="metric-card__delta neutral">1 247 szt.</div>
+            </div>
+
+            <div class="metric-card">
+              <div class="metric-card__label">Rynki aktywne</div>
+              <div class="metric-card__value">4</div>
+              <div class="metric-card__delta neutral">.de .fr .it .es</div>
+            </div>
+
+          </div>
+
+          <!-- Pasek wykresu CSS -->
+          <div class="dashboard__chart">
+            <div class="chart__label">Sprzedaż — ostatnie 14 dni</div>
+            <div class="chart__bars">
+              <div class="chart__bar" style="--h: 45%"></div>
+              <div class="chart__bar" style="--h: 60%"></div>
+              <div class="chart__bar" style="--h: 52%"></div>
+              <div class="chart__bar" style="--h: 70%"></div>
+              <div class="chart__bar" style="--h: 65%"></div>
+              <div class="chart__bar" style="--h: 80%"></div>
+              <div class="chart__bar" style="--h: 55%"></div>
+              <div class="chart__bar" style="--h: 90%"></div>
+              <div class="chart__bar" style="--h: 75%"></div>
+              <div class="chart__bar" style="--h: 85%"></div>
+              <div class="chart__bar" style="--h: 68%"></div>
+              <div class="chart__bar" style="--h: 95%"></div>
+              <div class="chart__bar" style="--h: 88%"></div>
+              <div class="chart__bar chart__bar--today" style="--h: 100%"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================================================
+       SEKCJA 2 — PROBLEM
+  ================================================ -->
+  <section class="problem">
+    <div class="container">
+
+      <div class="section-header">
+        <h2 class="section-header__h2">
+          Twój Amazon sprzedaje.<br>
+          Ale czy <span class="accent">naprawdę zarabia?</span>
+        </h2>
+        <p class="section-header__sub">
+          Większość sprzedawców widzi obroty. Niewielu zna swój prawdziwy zysk.
+        </p>
+      </div>
+
+      <div class="problem__grid">
+
+        <!-- Karta 1 -->
+        <div class="problem-card">
+          <div class="problem-card__icon">
+            <!-- Ikona: tabela/excel -->
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="2" y="2" width="24" height="24" rx="3" stroke="#0ea5e9" stroke-width="1.8"/>
+              <line x1="2" y1="9" x2="26" y2="9" stroke="#0ea5e9" stroke-width="1.8"/>
+              <line x1="2" y1="16" x2="26" y2="16" stroke="#0ea5e9" stroke-width="1.8"/>
+              <line x1="10" y1="9" x2="10" y2="26" stroke="#0ea5e9" stroke-width="1.8"/>
+              <line x1="18" y1="9" x2="18" y2="26" stroke="#0ea5e9" stroke-width="1.8"/>
+            </svg>
+          </div>
+          <h3 class="problem-card__title">Godziny w Excelu zamiast decyzji</h3>
+          <p class="problem-card__desc">
+            Ręczne łączenie raportów Amazon, obliczanie kosztów, szukanie marży.
+            Co miesiąc od nowa.
+          </p>
+        </div>
+
+        <!-- Karta 2 -->
+        <div class="problem-card">
+          <div class="problem-card__icon">
+            <!-- Ikona: wykres w dół -->
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <polyline points="3,6 10,16 16,10 25,22" stroke="#0ea5e9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              <polyline points="19,22 25,22 25,16" stroke="#0ea5e9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="problem-card__title">Obrót to nie zysk</h3>
+          <p class="problem-card__desc">
+            Rekordowa sprzedaż, a na koncie mniej niż myślałeś.
+            FBA, reklama, zwroty — gdzie poszły pieniądze?
+          </p>
+        </div>
+
+        <!-- Karta 3 -->
+        <div class="problem-card">
+          <div class="problem-card__icon">
+            <!-- Ikona: mapa/globus -->
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="14" cy="14" r="11" stroke="#0ea5e9" stroke-width="1.8"/>
+              <ellipse cx="14" cy="14" rx="5" ry="11" stroke="#0ea5e9" stroke-width="1.8"/>
+              <line x1="3" y1="14" x2="25" y2="14" stroke="#0ea5e9" stroke-width="1.8"/>
+              <line x1="5" y1="8" x2="23" y2="8" stroke="#0ea5e9" stroke-width="1.2"/>
+              <line x1="5" y1="20" x2="23" y2="20" stroke="#0ea5e9" stroke-width="1.2"/>
+            </svg>
+          </div>
+          <h3 class="problem-card__title">Wiele rynków = chaos</h3>
+          <p class="problem-card__desc">
+            .de .fr .it .es w osobnych raportach.
+            Brak jednego widoku na cały biznes.
+          </p>
+        </div>
+
+        <!-- Karta 4 -->
+        <div class="problem-card">
+          <div class="problem-card__icon">
+            <!-- Ikona: zegar -->
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="14" cy="14" r="11" stroke="#0ea5e9" stroke-width="1.8"/>
+              <polyline points="14,8 14,14 18,17" stroke="#0ea5e9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="problem-card__title">Agencje tracą czas na raportowanie</h3>
+          <p class="problem-card__desc">
+            Kilkanaście klientów, kilkanaście kont.
+            Ręczne raporty = dziesiątki godzin miesięcznie.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================
+       SEKCJA 3 — FUNKCJE
+  ================================================ -->
+  <section class="features">
+    <div class="container">
+
+      <div class="section-header">
+        <h2 class="section-header__h2">Wszystko czego potrzebujesz<br>do <span class="accent">zarządzania sprzedażą</span></h2>
+        <p class="section-header__sub">Nie kolejne narzędzie do nauki. Dane które już znasz — w końcu ułożone sensownie.</p>
+      </div>
+
+      <div class="features__grid">
+
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="3" y="12" width="4" height="9" rx="1" fill="#0ea5e9" opacity="0.5"/>
+              <rect x="10" y="7" width="4" height="14" rx="1" fill="#0ea5e9" opacity="0.75"/>
+              <rect x="17" y="3" width="4" height="18" rx="1" fill="#0ea5e9"/>
+            </svg>
+          </div>
+          <h3 class="feature-card__title">Sprzedaż w czasie</h3>
+          <p class="feature-card__desc">Dzienna, tygodniowa, miesięczna. Trendy jednym spojrzeniem.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="12" cy="12" r="9" stroke="#0ea5e9" stroke-width="1.8"/>
+              <path d="M12 7v5l3 3" stroke="#0ea5e9" stroke-width="1.8" stroke-linecap="round"/>
+              <path d="M8 12h2M14 12h2" stroke="#0ea5e9" stroke-width="1.4" stroke-linecap="round" opacity="0.5"/>
+            </svg>
+          </div>
+          <h3 class="feature-card__title">Realna marża</h3>
+          <p class="feature-card__desc">Po FBA, reklamie, zwrotach i fulfilmencie. Nie obrotowa iluzja.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26" stroke="#0ea5e9" stroke-width="1.8" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="feature-card__title">Ranking produktów</h3>
+          <p class="feature-card__desc">Które zarabiają, które tylko generują obrót. Tnij straty.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <polyline points="2,20 6,12 10,15 14,8 18,10 22,4" stroke="#0ea5e9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="22" cy="4" r="2" fill="#0ea5e9"/>
+            </svg>
+          </div>
+          <h3 class="feature-card__title">Predykcje sprzedaży</h3>
+          <p class="feature-card__desc">Prognoza oparta na Twoich trendach. Planuj stock i budżet.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="12" cy="12" r="9" stroke="#0ea5e9" stroke-width="1.8"/>
+              <ellipse cx="12" cy="12" rx="4" ry="9" stroke="#0ea5e9" stroke-width="1.5"/>
+              <line x1="3" y1="12" x2="21" y2="12" stroke="#0ea5e9" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h3 class="feature-card__title">Multi-marketplace</h3>
+          <p class="feature-card__desc">.de .fr .it .es .pl w jednym widoku. Jeden raport dla całego biznesu.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke="#0ea5e9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="feature-card__title">Organic vs Paid</h3>
+          <p class="feature-card__desc">Ile kosztuje Cię reklama realnie. Gdzie rośniesz bez płacenia.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="12" cy="12" r="3" fill="#0ea5e9"/>
+              <circle cx="12" cy="12" r="7" stroke="#0ea5e9" stroke-width="1.5" opacity="0.5"/>
+              <circle cx="12" cy="12" r="10" stroke="#0ea5e9" stroke-width="1" opacity="0.25"/>
+            </svg>
+          </div>
+          <h3 class="feature-card__title">Budżet reklamowy</h3>
+          <p class="feature-card__desc">System podpowiada optymalny budżet na podstawie danych historycznych.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-card__icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke="#0ea5e9" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3 class="feature-card__title">Automatyczne raporty</h3>
+          <p class="feature-card__desc">Generuj raporty dla klientów w minutach. Dla agencji i freelancerów.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       SEKCJA 4 — DLA KOGO
+  ================================================ -->
+  <section class="for-who">
+    <div class="container">
+
+      <div class="section-header">
+        <h2 class="section-header__h2">Dla <span class="accent">sprzedawców i agencji</span></h2>
+      </div>
+
+      <div class="for-who__grid">
+
+        <!-- Lewa: Seller -->
+        <div class="persona-card">
+          <div class="persona-card__icon">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="4" y="14" width="24" height="16" rx="2" stroke="#0ea5e9" stroke-width="1.8"/>
+              <path d="M10 14V10a6 6 0 0 1 12 0v4" stroke="#0ea5e9" stroke-width="1.8" stroke-linecap="round"/>
+              <circle cx="16" cy="20" r="2" fill="#0ea5e9"/>
+            </svg>
+          </div>
+          <h3 class="persona-card__title">Sprzedajesz na Amazon</h3>
+          <ul class="persona-card__list">
+            <li><span class="check">✓</span> Widzisz realną marżę każdego produktu</li>
+            <li><span class="check">✓</span> Planujesz stock zanim skończy się towar</li>
+            <li><span class="check">✓</span> Wiesz które rynki napędzają wzrost</li>
+            <li><span class="check">✓</span> Oszczędzasz 10h miesięcznie na raportowaniu</li>
+          </ul>
+          <a href="#" class="btn btn--primary persona-card__cta">Zacznij teraz →</a>
+        </div>
+
+        <!-- Prawa: Agencja -->
+        <div class="persona-card">
+          <div class="persona-card__icon">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="12" cy="10" r="4" stroke="#0ea5e9" stroke-width="1.8"/>
+              <circle cx="22" cy="10" r="4" stroke="#0ea5e9" stroke-width="1.8"/>
+              <path d="M4 28c0-5 3.6-8 8-8" stroke="#0ea5e9" stroke-width="1.8" stroke-linecap="round"/>
+              <path d="M28 28c0-5-3.6-8-8-8h-4" stroke="#0ea5e9" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="persona-card__title">Obsługujesz klientów marketplace</h3>
+          <ul class="persona-card__list">
+            <li><span class="check">✓</span> Profesjonalne raporty dla klientów w minutach</li>
+            <li><span class="check">✓</span> Jedno miejsce dla wszystkich kont klientów</li>
+            <li><span class="check">✓</span> Uzasadniasz swoje fee twardymi danymi</li>
+            <li><span class="check">✓</span> Skalujesz obsługę bez skalowania czasu</li>
+          </ul>
+          <a href="#" class="btn btn--primary persona-card__cta">Zacznij teraz →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       SEKCJA 5 — SOCIAL PROOF
+  ================================================ -->
+  <section class="proof">
+    <div class="container">
+
+      <div class="section-header">
+        <h2 class="section-header__h2">Dołącz do sprzedawców<br>którzy wiedzą <span class="accent">ile zarabiają</span></h2>
+      </div>
+
+      <!-- Trzy duże liczby -->
+      <div class="proof__stats">
+        <div class="stat">
+          <div class="stat__value">1 200+</div>
+          <div class="stat__label">aktywnych użytkowników</div>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <div class="stat__value">4,8/5</div>
+          <div class="stat__label">średnia ocena</div>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <div class="stat__value">38 mln zł</div>
+          <div class="stat__label">przeanalizowanego obrotu</div>
+        </div>
+      </div>
+
+      <!-- Opinie -->
+      <div class="proof__reviews">
+
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <blockquote class="review-card__text">
+            "Pierwszego miesiąca odkryłem że jeden produkt generuje 40% obrotu ale tylko 8% zysku. Bez SellerIQ nigdy bym tego nie zobaczył."
+          </blockquote>
+          <div class="review-card__author">
+            <div class="review-card__avatar">MK</div>
+            <div>
+              <div class="review-card__name">Marek K.</div>
+              <div class="review-card__role">Seller Amazon .de</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <blockquote class="review-card__text">
+            "Raporty dla klientów robiłam 2 dni. Teraz 20 minut. To zmieniło moją agencję."
+          </blockquote>
+          <div class="review-card__author">
+            <div class="review-card__avatar">KW</div>
+            <div>
+              <div class="review-card__name">Karolina W.</div>
+              <div class="review-card__role">Amazon Account Manager</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================
+       SEKCJA 6 — CENNIK
+  ================================================ -->
+  <section class="pricing" id="cennik">
+    <div class="container">
+
+      <div class="section-header">
+        <h2 class="section-header__h2">Prosty cennik.<br><span class="accent">Bez niespodzianek.</span></h2>
+        <p class="section-header__sub">Zacznij za darmo. Przejdź na płatny plan gdy będziesz gotowy.</p>
+      </div>
+
+      <div class="pricing__grid">
+
+        <!-- Starter -->
+        <div class="price-card">
+          <div class="price-card__header">
+            <div class="price-card__plan">Starter</div>
+            <div class="price-card__for">Samodzielny seller</div>
+            <div class="price-card__price"><span class="price-card__amount">99 zł</span><span class="price-card__period"> / miesiąc</span></div>
+          </div>
+          <ul class="price-card__list">
+            <li class="yes">✓ 1 konto Amazon</li>
+            <li class="yes">✓ Do 500 SKU</li>
+            <li class="yes">✓ Sprzedaż i marża w czasie</li>
+            <li class="yes">✓ Ranking produktów</li>
+            <li class="yes">✓ 2 rynki marketplace</li>
+            <li class="no">✗ Predykcje sprzedaży</li>
+            <li class="no">✗ Multi-konto</li>
+            <li class="no">✗ Raporty dla klientów</li>
+          </ul>
+          <a href="#" class="btn btn--outline">Zacznij za darmo</a>
+        </div>
+
+        <!-- Pro — wyróżniony -->
+        <div class="price-card price-card--featured">
+          <div class="price-card__badge">Najpopularniejszy</div>
+          <div class="price-card__header">
+            <div class="price-card__plan">Pro</div>
+            <div class="price-card__for">Rosnący seller</div>
+            <div class="price-card__price"><span class="price-card__amount">249 zł</span><span class="price-card__period"> / miesiąc</span></div>
+          </div>
+          <ul class="price-card__list">
+            <li class="yes">✓ 3 konta Amazon</li>
+            <li class="yes">✓ Unlimited SKU</li>
+            <li class="yes">✓ Wszystkie funkcje Starter</li>
+            <li class="yes">✓ Predykcje sprzedaży</li>
+            <li class="yes">✓ Sugestie budżetu reklamowego</li>
+            <li class="yes">✓ Wszystkie rynki marketplace</li>
+            <li class="yes">✓ Eksport raportów PDF</li>
+            <li class="no">✗ Raporty white-label</li>
+          </ul>
+          <a href="#" class="btn btn--primary">Zacznij za darmo</a>
+        </div>
+
+        <!-- Agency -->
+        <div class="price-card">
+          <div class="price-card__header">
+            <div class="price-card__plan">Agency</div>
+            <div class="price-card__for">Agencja i freelancer</div>
+            <div class="price-card__price"><span class="price-card__amount">599 zł</span><span class="price-card__period"> / miesiąc</span></div>
+          </div>
+          <ul class="price-card__list">
+            <li class="yes">✓ 10 kont Amazon</li>
+            <li class="yes">✓ Unlimited SKU</li>
+            <li class="yes">✓ Wszystkie funkcje Pro</li>
+            <li class="yes">✓ Raporty white-label dla klientów</li>
+            <li class="yes">✓ Dashboard per klient</li>
+            <li class="yes">✓ Priorytetowy support</li>
+            <li class="yes">✓ Onboarding call 1:1</li>
+          </ul>
+          <a href="#" class="btn btn--outline">Zacznij za darmo</a>
+        </div>
+
+      </div>
+
+      <p class="pricing__note">14 dni za darmo na każdym planie. Bez karty kredytowej. Anulujesz w każdej chwili.</p>
+
+    </div>
+  </section>
+
+  <!-- ================================================
+       SEKCJA 7 — FAQ
+  ================================================ -->
+  <section class="faq">
+    <div class="container">
+
+      <div class="section-header">
+        <h2 class="section-header__h2">Częste <span class="accent">pytania</span></h2>
+      </div>
+
+      <div class="faq__grid">
+
+        <div class="faq-card">
+          <h3 class="faq-card__q">Jak SellerIQ pobiera dane z Amazon?</h3>
+          <p class="faq-card__a">Łączysz konto przez oficjalne Amazon SP-API. Autoryzacja zajmuje 2 minuty. Dane synchronizują się automatycznie co 24h.</p>
+        </div>
+
+        <div class="faq-card">
+          <h3 class="faq-card__q">Czy mogę przetestować przed zakupem?</h3>
+          <p class="faq-card__a">Tak. Każdy plan ma 14 dni za darmo bez karty kredytowej. Pełny dostęp do wszystkich funkcji wybranego planu.</p>
+        </div>
+
+        <div class="faq-card">
+          <h3 class="faq-card__q">Ile kont Amazon mogę podłączyć?</h3>
+          <p class="faq-card__a">Zależy od planu: Starter — 1 konto, Pro — 3 konta, Agency — 10 kont. Potrzebujesz więcej? Napisz do nas.</p>
+        </div>
+
+        <div class="faq-card">
+          <h3 class="faq-card__q">Czy dane są bezpieczne?</h3>
+          <p class="faq-card__a">Dane przechowujemy na serwerach w UE (RODO). Połączenie szyfrowane SSL. Nie sprzedajemy ani nie udostępniamy Twoich danych.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       SEKCJA 8 — KOŃCOWE CTA
+  ================================================ -->
+  <section class="cta-final">
+    <div class="container cta-final__inner">
+      <h2 class="cta-final__h2">Przestań zgadywać.<br>Zacznij <span class="accent">wiedzieć.</span></h2>
+      <p class="cta-final__sub">Dołącz do sprzedawców którzy podejmują decyzje na podstawie danych — nie przeczuć.</p>
+      <a href="#" class="btn btn--primary btn--lg">Zacznij za darmo — 14 dni bez karty</a>
+      <p class="cta-final__note">Konfiguracja zajmuje 5 minut.</p>
+    </div>
+  </section>
+
+  <!-- ================================================
+       FOOTER
+  ================================================ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#" class="nav__logo">Seller<span>IQ</span></a>
+      <nav class="footer__links">
+        <a href="#">Polityka prywatności</a>
+        <span>|</span>
+        <a href="#">Regulamin</a>
+        <span>|</span>
+        <a href="#">Kontakt</a>
+      </nav>
+      <p class="footer__copy">© 2025 SellerIQ. Wszelkie prawa zastrzeżone.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
